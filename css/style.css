@@ -68,7 +68,7 @@
     display:grid;
     width: 100%;
     
-    grid-template: 200px 1fr 100px / 200px repeat(2, 1fr);
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
     grid-template-areas: 
     "header header header"                 
     "main   main   main "
@@ -248,27 +248,34 @@ footer{
 
 .grid-tec{
     display:grid;
-    width: 100%;
+    width: 100;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    justify-content: center;
-    align-content: center;
+    grid-template-areas: 
+    "ht ht ht"
+    "mt mt mt"
+    "ft ft ft"
+    
+    
+    
+    ;
+    
     
     
     }
     
-    .ht{
+    header{
         display: grid;
         grid-area: ht;
         
     }
-    .ht-h
-    .mt{
+    
+    main{
         display: grid;
         grid-area: mt;
         
     }
-    .ft{
+    footer{
         display: grid;
         grid-area: ft;
         
