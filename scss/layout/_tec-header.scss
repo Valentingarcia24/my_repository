@@ -1,0 +1,37 @@
+.grid-tec {
+    display: grid;
+    width: 100%;
+    grid-template: repeat(3, 300px)/repeat(3, 400px);
+
+    grid-template-areas:
+        "header header header"
+        "main   main   main  "
+        "footer footer footer";
+    justify-content: center;
+    align-content: center;
+
+    .header-tec {
+        display: grid;
+        grid-area: header;
+        grid-template: repeat(3, 100px )/repeat(4, 300px);
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+    .at {
+        grid-column: 1/5;
+        grid-row: 2/3;
+        justify-self: center;
+        font-size: 80px;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .i-t {
+        grid-column: 2/4;
+        justify-self: center;
+        align-self: center;
+        font-size: 30px;
+    }
+
+}
