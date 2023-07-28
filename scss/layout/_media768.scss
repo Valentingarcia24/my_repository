@@ -4,13 +4,54 @@
         grid-template-columns: repeat(4, 150px);
         grid-template-rows: repeat(4, 100px);
     
-    .grid .header-in .astro-1{
-        grid-column: 4/5;
-        font-size: 80px;
+    .astro-1{
+        grid-column: 1/5;
+        font-size: 85px;
+        
     }
-    .grid .header-in .grid-head-1{
+    .grid-head-1{
         grid-column: 4/5;
-        font-size: 100px;
+        font-size: 20px;
+        justify-content: center;
+        align-content: center;
     }
+    .grid-head-2{
+        grid-column: 1/2;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+.grid-tec{
+    justify-content: center;
+    align-content: center;
+    
+    
+    
+}
+.grid-tec .header-tec{
+    grid-template-columns: repeat(6, 200px);
+    
+}
+.grid-tec .header-tec .at{
+    grid-column: 3 / 4;
+    font-size: 60px;
+}
+.grid-tec .header-tec .i-t{
+    grid-column: 3 / 4;
+    justify-content: center;
+    align-content: center;
+}
+.main-tec .t-t{
+    grid-column: 2 / 3;
+}
+.main-tec .l-t{
+    grid-column: 2/4;
+}
+.main-tec .ct {
+    grid-column: 2 / 3;
+}
+.main-tec .l-t2{
+    grid-column: 2/4;
 }
 }

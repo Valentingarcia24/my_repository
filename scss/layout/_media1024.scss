@@ -7,19 +7,31 @@
     
 }
     .grid .header-in .grid-head-1{
-    grid-column: 5/6;
-    
+    grid-column: 5 / 6;
     font-size: 20px;
 }
+
+
+
+
+
 .main-tec{
     grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(4, 100px);
+    grid-template-rows: repeat(6, 100px);
     justify-content: center;
     align-content: center;
 
-    .main-tec .ct{
-        font-size: 40px;
-    }
 }
+.main-tec .ct{
+    font-size: 50px;
+    grid-column: 1 / 2;
+    justify-content: center;
+    align-content: center;
+    
+}
+.main-tec .l-t2{
+    grid-column: 1/4;
+    }
+    
 }
 
