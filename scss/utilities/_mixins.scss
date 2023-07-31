@@ -1,6 +1,9 @@
-@mixin columnas{
-    grid-column:column ;
-    grid-row: row;
-
+@mixin grid ($dis ,$ancho, $colums, $rows ) {
+    display: $dis;
+    width: $ancho;
+    grid-template-columns: $colums;
+    grid-template-rows: $rows;
+    
+    
 }
 

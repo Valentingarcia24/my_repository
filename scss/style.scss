@@ -1,3 +1,4 @@
+@import "./utilities/variables";
 @import "./utilities/mixins";
 @import "./base/reset";
 @import "./layout/index-header";
@@ -6,6 +7,12 @@
 @import "./layout/tec-header";
 @import "./layout/tec-main";
 @import "./layout/tec-footer";
+@import "./layout/peri-header";
+@import "./layout/peri-main";
+@import "./layout/dis-header";
+@import "./layout/dis-main";
+@import "./layout/con-header";
+@import "./layout/con-main";
 
 
 

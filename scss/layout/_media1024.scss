@@ -1,4 +1,4 @@
-@media(min-width:1024px){
+@media(max-width:1024px){
     
     
     .grid .header-in .astro-1{
@@ -33,5 +33,29 @@
     grid-column: 1/4;
     }
     
+.header-per .a-per{
+        grid-column: 1/4;
+        font-size: 50px;
+        
+    }
+.header-per .i-per{
+        grid-column: 1/4;
+    }
+
+
+
+
+
+
+    .header-dis .a-p{
+        grid-column: 1/4;
+    }
+    .header-dis .i-p{
+        grid-column: 1/4;
+    }
 }
+
+
+
+
 

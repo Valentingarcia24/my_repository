@@ -48,4 +48,36 @@
         align-content: center;
         font-size: 25px;
     }
+    
+    
+    .header-per .a-per{
+        
+        font-size: 35px;
+        
     }
+    .header-per .i-per{
+        
+        font-size: 20px;
+    }
+
+
+
+    .header-dis .a-p{
+        
+        justify-self: self-start;
+        font-size: 30px;
+        
+    }
+    .header-dis .i-p{
+        grid-column: 1/2;
+        font-size: 15px;
+    }
+
+
+    .header-con .a-c{
+        font-size: 30px;
+    }
+    .header-con .i-c{
+        font-size: 15px;
+    }
+}

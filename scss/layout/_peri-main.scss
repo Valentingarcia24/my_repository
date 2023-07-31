@@ -1,0 +1,31 @@
+.main-per{
+    display: grid;
+    width: 100%;
+    grid-template: repeat(6, 100px)/repeat(6, 1fr);
+
+    .p-p{
+        grid-column: 2/3;
+        justify-self: initial;
+        align-self: initial;
+        font-size: 30px;
+        font-family: 'Kanit', sans-serif;
+    }
+    .l-per{
+        grid-column: 2/5;
+        grid-row: 2/3;
+        font-family: 'Geologica', sans-serif;
+    }
+    .c-p{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        justify-self: initial;
+        align-self: initial;
+        font-size: 30px;
+        font-family: 'Kanit', sans-serif;
+    }
+    .l2-p{
+        grid-column: 2/5;
+        grid-row: 5/6;
+        font-family: 'Geologica', sans-serif;
+    }
+    }

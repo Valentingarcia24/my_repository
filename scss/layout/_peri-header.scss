@@ -1,0 +1,24 @@
+.header-per{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 300px);
+    grid-template-rows: repeat(3, 100px);
+
+    .a-per{
+        grid-column: 1/6;
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: center;
+        font-size: 70px;
+        font-family: 'Geologica', sans-serif;
+    }
+    .i-per{
+        grid-column: 1/6;
+        justify-self: center;
+        align-self: center;
+        font-size: 30px;
+        font-family: 'Geologica', sans-serif;
+        
+    }
+}
+
