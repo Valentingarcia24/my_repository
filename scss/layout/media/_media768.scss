@@ -1,0 +1,45 @@
+@media (min-width:768px){
+    .block-1 {
+        display: block;
+        background-color: rgba(29, 29, 29, 1);
+        position: relative;
+
+        
+        padding: 30px;
+        border-top: 5px solid rgba(120, 37, 242, 1);
+        border-bottom: 5px solid rgba(120, 37, 242, 1);
+        border-left: 5px solid rgba(120, 37, 242, 1);
+        border-right: 5px solid rgba(120, 37, 242, 1);
+        margin:0px 100px 0px 100px ;
+}
+
+
+
+.block-2 {
+    padding: 30px;
+    margin:0px 100px 0px 100px ;
+}
+
+
+
+.header-con .a-c{
+    position: relative;
+    left: 300px;
+    top: 30px;
+    padding: 100px;
+}
+.header-con .i-c{
+    width: 100%;
+    a{
+        position: relative;
+        left: 130px;
+        font-size: 20px;
+        padding-left: 7px;
+    }
+}
+
+}
+
+
+
+
