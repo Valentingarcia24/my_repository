@@ -463,6 +463,31 @@
     left: 350px;
   }
 }
+@media (min-width: 1238px) {
+  .a-c {
+    margin: 100px 800px 0px 0px;
+    position: relative;
+    left: 400px;
+  }
+  .header-dis .a-p {
+    padding: 0px 0px 0px 550px;
+  }
+  .at {
+    position: relative;
+    left: 450px;
+  }
+  .i-t {
+    width: 100%;
+  }
+  .a-per {
+    position: relative;
+    left: 450px;
+  }
+  .i-per a {
+    position: relative;
+    right: 10px;
+  }
+}
 @media (min-width: 1440px) {
   .bloques-2 {
     -ms-grid-column-align: center;
@@ -472,35 +497,32 @@
         align-self: center;
     padding: 300px;
   }
-  .header-con .a-c {
-    position: absolute;
-    left: 2px;
-    padding-left: 300px;
-  }
-  .header-con .i-c a {
-    position: relative;
-    left: 100px;
-    margin-left: 100px;
-    font-size: 15px;
-  }
-}
-@media (min-width: 1238px) {
   .a-c {
-    margin: 100px 500px 0px 0px;
-  }
-  .header-dis .a-p {
-    padding: 0px 0px 0px 550px;
+    margin: 0px 0px 0px 300px;
+    position: relative;
+    left: px;
   }
   .at {
     position: relative;
-    left: 450px;
+    left: 800px;
   }
-  .a-per {
+  .c-c {
     position: relative;
-    left: 450px;
+    left: 900px;
+    top: -10px;
   }
-  .i-per a {
+  .l-c {
+    padding: 0px 300px 0px 300px;
     position: relative;
-    right: 10px;
+    left: 200px;
+    right: 300px;
+  }
+  .n-c {
+    position: relative;
+    left: 900px;
+    top: -250px;
+  }
+  .a-p {
+    padding: 300px;
   }
 }
