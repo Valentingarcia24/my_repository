@@ -1,19 +1,45 @@
 @media(min-width:1024px){
     .header-con .a-c{
-        position: absolute;
-        left: 2px;
-        padding-left: 170px;
+        position: relative;
+        left: 200px;
+        padding-left: 200px;
     }
     .i-c{
-        width: 100%;
         a{
             font-size: 15px;
             margin: 0px 0px 0px 50px;
             
         }
     }
-    
-    
+    .c-c{
+        position: relative;
+        left: 450px;
+    }
+    .l-c{
+        position: relative;
+        left: 45px;
+        padding-right: 100px;
+    }
+    .n-c{
+        position: relative;
+        left: 450px;
+    }
+    .l-c2{
+        position: relative;
+        left: 45px;
+    }
+    .header-dis .a-p{
+        padding: 0px 0px 0px 400px;
+    }
+
+    .at{
+        position: relative;
+        left: 350px;
+    }
+    .a-per{
+        position: relative;
+        left: 350px;
+    }
 }
 @media (min-width:1440px){
     .bloques-2{
@@ -27,7 +53,7 @@
         padding-left: 300px;
     }
     .header-con .i-c{
-        width: 100%;
+        
         a{
             position: relative;
             left: 100px;
@@ -38,12 +64,7 @@
         }
     }
 }
-@media (min-width:77.375rem){
-    .i-c{
-        position: relative;
-        left: 100px;
-    }
-}
+
 
 
 

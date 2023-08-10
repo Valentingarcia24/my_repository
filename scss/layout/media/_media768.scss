@@ -24,20 +24,60 @@
 
 .header-con .a-c{
     position: relative;
-    left: 300px;
-    top: 30px;
+    left: 190px;
+    bottom:50px;
     padding: 100px;
 }
 .header-con .i-c{
-    width: 100%;
+    
+    
     a{
         position: relative;
-        left: 130px;
+        left: 50px;
         font-size: 20px;
         padding-left: 7px;
+        
+        
+        
     }
 }
+.c-c{
+    position: relative;
+    bottom: 100px;
+    left: 350px;
+}
+.l-c{
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    justify-self: center;
+    align-self: center;
+    
+}
+.n-c{
+    position: relative;
+    bottom: 100px;
+    left: 350px;
+}
+.l-c2{
+    position: relative;
+    left: 50px;
+    bottom: 100px
+    
+}
 
+
+.header-dis .a-p{
+    padding-left: 270px;
+}
+.at{
+    position: relative;
+    left: 220px;
+}
+.a-per{
+    position: relative;
+    left: 220px;
+}
 }
 
 
